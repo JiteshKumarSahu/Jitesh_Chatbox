@@ -1,0 +1,145 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! Nice to meet you.",
+        "Hey! What can I do for you?",
+        "Hello! How are you?"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "What is Python language?",
+        "Tell me about Python"
+      ],
+      "responses": [
+        "Python is a high-level programming language.",
+        "Python is a popular programming language known for its simple syntax.",
+        "Python is widely used in AI, ML, web development and data science."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "My pleasure!",
+        "Happy to help!",
+        "No problem!"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "Are you fine?",
+        "How is everything?"
+      ],
+      "responses": [
+        "I'm fine, thank you!",
+        "I'm doing great. How about you?",
+        "I'm good and ready to help you.",
+        "Doing well!"
+      ]
+    },
+    {
+      "tag": "variable",
+      "patterns": [
+        "What is a variable?",
+        "Explain variable",
+        "What are variables?",
+        "Why do we use variables?"
+      ],
+      "responses": [
+        "A variable is used to store a value in a program.",
+        "A variable is a named memory location used to store data.",
+        "Variables allow us to store and use data in a program."
+      ]
+    },
+    {
+      "tag": "loop",
+      "patterns": [
+        "What is a loop?",
+        "Explain loop",
+        "Why are loops used?",
+        "What are loops?"
+      ],
+      "responses": [
+        "A loop is used to execute a block of code repeatedly.",
+        "Loops help us repeat a task multiple times.",
+        "A loop runs a block of code again and again based on a condition."
+      ]
+    },
+    {
+      "tag": "forloop",
+      "patterns": [
+        "What is a for loop?",
+        "Explain for loop",
+        "Why are for loops used?",
+        "What are for loops?"
+      ],
+      "responses": [
+        "A for loop in python is used to iterate over a sequence (such as list, tuple, set, Dictionary or String) and execute the block of code for each item",
+        "A control flow statement used to iterate over a sequence (like a list, tuple, dictionary, set, or string) or any other iterable object"
+      ]
+    },
+    {
+      "tag": "whileloop",
+      "patterns": [
+        "What is a while loop?",
+        "Explain while loop",
+        "Why are while loops used?",
+        "What are while loops?"
+      ],
+      "responses": [
+        "A while loop in python repeadly executes a block of code as long as a specified boolean condition remains true",
+        "While Loop is used to execute a block of statements repeatedly until a given condition is satisfied. When the condition becomes false, the line immediately after the loop in the program is executed."
+      ]
+    },
+    {
+      "tag": "string",
+      "patterns": [
+        "What is String?",
+        "Explain String",
+        "Why are String Used?",
+        "What are String?"
+      ],
+      "responses": [
+        "String is a collection of characters and combination of workds.",
+        "String is a ordered collection datatype",
+        "String is immutable type of datatype"
+      ]
+    },
+    {
+      "tag": "Control Statement",
+      "patterns": [
+        "What is Control Statement?",
+        "Explain Control Statement",
+        "Why are Control Statemennt Used?",
+        "What are Control Statement?"
+      ],
+      "responses": [
+        "With the help of control statement we can control the flow of program types (i) if-else , (ii) loop",
+        "Control statements in Python are instructions that alter the standard sequential, top-to-bottom execution of a program. They allow your code to make decisions, repeat specific actions, or jump out of loops early"
+      ]
+    }
+  ]
+}
